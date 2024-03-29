@@ -58,7 +58,7 @@ isContextEnabled = true
 content = """
 # Where is the app download?
 There is a work-in-progress mobile app, get the Updates role to be notified!
-On supported instantes, you can install the website as a [PWA](https://cdn.discordapp.com/attachments/656888828430385171/1174969037403459624/IMG_4763_1.PNG) on mobile devices:
+On supported instances, you can install the website as a [PWA](https://cdn.discordapp.com/attachments/656888828430385171/1174969037403459624/IMG_4763_1.PNG) on mobile devices:
 [iOS guide](<https://www.wikihow.com/Install-Web-Apps-on-iPhone-or-iPad>)
 [Android guide](<https://support.google.com/chrome/answer/9658361?co=GENIE.Platform%3DAndroid&oco=1>)
 """
@@ -87,7 +87,7 @@ content = """
 The old official instance has been taken down. You can read more [here](https://discord.com/channels/871713465100816424/1116430057922121760/1210364442601193552) and in <#871715205686636564>
 You may still be seeing a cached version in your browser, but it is outdated, unsupported and will dissapear soon.
 
-To keep using an updated movie-web, switch to a [Community Instance](https://movie-web.github.io/docs/instances) or [self-host]https://movie-web.github.io/docs/self-hosting/hosting-intro>)
+To keep using on using movie-web, switch to a [Community Instance](<https://movie-web.github.io/docs/instances>) or [self-host]<https://movie-web.github.io/docs/self-hosting/hosting-intro>)
 """
 
 [dns]
@@ -96,7 +96,7 @@ content = """
 # Why is my search/other not working?
 We search using TMDB, but your ISP or network could be blocking the website.
 
-If that is the case, you can [set your dns to 1.1.1.1](https://developers.cloudflare.com/1.1.1.1/setup/), use a VPN, or use [WARP](<https://1.1.1.1>)
+If that is the case, you can [set your dns to 1.1.1.1](https://developers.cloudflare.com/1.1.1.1/setup/), use a VPN like the free [WARP](<https://one.one.one.one/>)
 """
 
 [showbox]
