@@ -9,8 +9,8 @@ dependencies:
     specifier: ^1.38.0
     version: 1.38.0
   '@movie-web/providers':
-    specifier: ^2.2.4
-    version: 2.2.4
+    specifier: ^2.2.5
+    version: 2.2.5
   '@sapphire/decorators':
     specifier: ^6.0.3
     version: 6.0.3
@@ -268,8 +268,8 @@ packages:
     resolution: {integrity: sha512-lYtBcmvHustHQtg4X7TXUu1Xa/tbLC3p2wLvgQI+fWVySguVZJF60Snxijw5EiohumxZbR10kWYFFebh1zotiw==}
     dev: false
 
-  /@movie-web/providers@2.2.4:
-    resolution: {integrity: sha512-c10ffR7/oPMbVwpD+Lw0/k5jvx51NbywGJtogzRjeXqDr01o5+pitPeN1qSGaqTg5FBlipn7NSesrd+cczDDQw==}
+  /@movie-web/providers@2.2.5:
+    resolution: {integrity: sha512-/mBtU79uf2pfPwgkqKjoyuHGdDgHjKyGGVtd7xd0EQ5ds6ox5y2bSp4XtQRjZ7rZgyAh0aYFElAsY8SC+Nkz5g==}
     dependencies:
       cheerio: 1.0.0-rc.12
       cookie: 0.6.0
