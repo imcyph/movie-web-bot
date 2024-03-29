@@ -113,4 +113,6 @@ content = """
 # How do I get all the sources?
 We have an [open source](https://github.com/movie-web/extension) extension available to unlock more sources.
 You can install it on desktop browsers, and on Android Firefox.
+[Chrome store](<https://chromewebstore.google.com/detail/movie-web-extension/hoffoikpiofojilgpofjhnkkamfnnhmm>)
+[Firefox store](<https://addons.mozilla.org/addon/movie-web-extension/>)
 """
