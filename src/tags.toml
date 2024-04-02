@@ -2,7 +2,7 @@
 isContextEnabled = true
 content = """
 # Couldn't find any videos for you!
-This error means we couldn't find a video, we simply do not have it. 
+This error means we couldn't find a video, we simply do not have it.
 Everything still shows up in search results, but that doesn't neccesarily mean we actually have a video of it.
 """
 
