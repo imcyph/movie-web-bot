@@ -53,7 +53,6 @@ Find your language in the sidebar and look under the Streaming section. [Use thi
 isContextEnabled = true
 content = """
 # Where is the app download?
-There is a work-in-progress mobile app, get the Updates role to be notified!
 On supported instances, you can install the website as a [PWA](https://cdn.discordapp.com/attachments/656888828430385171/1174969037403459624/IMG_4763_1.PNG) on mobile devices:
 [iOS guide](<https://www.wikihow.com/Install-Web-Apps-on-iPhone-or-iPad>)
 [Android guide](<https://support.google.com/chrome/answer/9658361?co=GENIE.Platform%3DAndroid&oco=1>)
