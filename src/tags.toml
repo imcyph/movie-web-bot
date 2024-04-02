@@ -89,7 +89,7 @@ isContextEnabled = true
 content = """
 # Why is my search/other not working?
 We search using TMDB, but your ISP or network could be blocking the website.
-If that is the case, you can [set your dns to 1.1.1.1](<https://developers.cloudflare.com/1.1.1.1/setup/>) or use a VPN like the free [Cloudflare WARP](<https://one.one.one.one/>)
+If that is the case, you can [set your dns to 1.1.1.1](<https://developers.cloudflare.com/1.1.1.1/setup/>) or use a VPN like the free [Cloudflare WARP service](<https://1.1.1.1/>)
 """
 
 [showbox]
