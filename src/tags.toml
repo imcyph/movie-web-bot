@@ -2,7 +2,7 @@
 isContextEnabled = true
 content = """
 # Couldn't find any videos for you!
-This error means we couldn't find a video, we simply do not have it. 
+This error means we couldn't find a video, we simply do not have it.
 Everything still shows up in search results, but that doesn't neccesarily mean we actually have a video of it.
 """
 
@@ -11,7 +11,6 @@ isContextEnabled = true
 content = """
 # Can you add X / When will Y be added?
 Movie-web doesn't host its own content, and thus we do not know when something will be added, nor can we add something ourselves. 
-
 Think of movie-web like google, we search the web for videos but we don't add our own, we only allow people to search.
 """
 
@@ -20,9 +19,7 @@ isContextEnabled = true
 content = """
 # Where does our content come from? Is it legal?
 We take the content directly from other sites that host content. We do not own any of the files. We simply display what we find on other sites.
-
 Think of it like Google, we search the Internet for videos, but we dont own the sites, nor the content. We merely link to them.
-
 Thus, the legality of watching the video depends on what sites it took from. We do not control that however. You can check the source section of the video settings to see what site you're watching from.
 """
 
@@ -31,7 +28,6 @@ isContextEnabled = true
 content = """
 # How to download?
 Under the settings cog in the video player, you can find the download setting.
-
 **If the option mentions downloading a playlist, then you'll be downloading a HLS playlist, you can play this file using VLC.**
 Currently, the only sources that support downloading an MP4 file are Showbox and HDrezka. Both are accessible via extension, with Showbox also being available through a non-Cloudflare proxy.
 """
@@ -53,19 +49,11 @@ Here is a list of non-English sites: <https://fmhy.pages.dev/non-english>
 Find your language in the sidebar and look under the Streaming section. [Use this adblocker!](<https://ublockorigin.com>)
 """
 
-[iphonecaptions]
-isContextEnabled = true
-content = """
-# Why can't I see subtitles in fullscreen on my iPhone?
-iOS does not allow custom video players to go fullscreen. Because of this, our subtitle renderer is not visible when you enter fullscreen.
-We can't currently fix this, but we're hoping to fix it in version 4.
-"""
-
 [apps]
 isContextEnabled = true
 content = """
 # Where is the app download?
-While there are no native movie-web apps, you can install it as a [PWA](https://cdn.discordapp.com/attachments/656888828430385171/1174969037403459624/IMG_4763_1.PNG) on mobile devices:
+On supported instances, you can install the website as a [PWA](https://cdn.discordapp.com/attachments/656888828430385171/1174969037403459624/IMG_4763_1.PNG) on mobile devices:
 [iOS guide](<https://www.wikihow.com/Install-Web-Apps-on-iPhone-or-iPad>)
 [Android guide](<https://support.google.com/chrome/answer/9658361?co=GENIE.Platform%3DAndroid&oco=1>)
 """
@@ -75,7 +63,6 @@ isContextEnabled = true
 content = """
 # When will v5 come out?
 We don't know. We're working on it, but we don't have a release date yet:tm:.
-
 You can check the planned features and their status [here](https://github.com/orgs/movie-web/projects/2).
 If you're a developer and want to help, you can ask to be assigned to an issue on GitHub.
 """
@@ -84,19 +71,40 @@ If you're a developer and want to help, you can ask to be assigned to an issue o
 isContextEnabled = true
 content = """
 # Why can't I watch this movie yet?
-
 The movie you are trying to watch only came out in theatres very recently. We don't control our content, and it is not possible for us to show movies that haven't come out on streaming yet. 
+"""
 
-We also won't point you to any other sources, so you're best off going to the actual movie theatre or waiting until it comes out on streaming. Asking for or providing other sources is against the rules and will result in a ban.
+[instances]
+isContextEnabled = true
+content = """
+# Why is movie-web.app down/having an issue?
+The old official instance has been taken down. You can read more [here](https://discord.com/channels/871713465100816424/1116430057922121760/1210364442601193552) and in <#871715205686636564>
+You may still be seeing a cached version in your browser, but it is outdated, unsupported and will dissapear soon.
+To keep using on using movie-web, switch to a [Community Instance](<https://movie-web.github.io/docs/instances>) or [self-host]<https://movie-web.github.io/docs/self-hosting/hosting-intro>)
+"""
+
+[dns]
+isContextEnabled = true
+content = """
+# Why is my search/other not working?
+We search using TMDB, but your ISP or network could be blocking the website.
+If that is the case, you can [set your dns to 1.1.1.1](<https://developers.cloudflare.com/1.1.1.1/setup/>) or use a VPN like the free [Cloudflare WARP service](<https://1.1.1.1/>)
 """
 
 [showbox]
 isContextEnabled = true
 content = """
-# What happened to Showbox/Febbox?
+# Why isn't showbox working?
+showbox blocks Cloudflare IPs, so a non-cloudflare proxy (or extension) must be used. (selfhosters: use Netlify)
+All [Community Instances](<https://movie-web.github.io/docs/instances>) should have a non-cloudflare proxy by default.
+"""
 
-[Showbox/Febbox only works through a non-cloudfare proxy](<https://discord.com/channels/871713465100816424/1116430057922121760/1194388487424708788>) or through the movie-web extension. Meaning you can either use the movie-web extension, host your own proxy, or utilise an instance of movie-web that has a non-cloudflare proxy integrated into it.
-Hosting your own proxy is simple and can be done for free and within 5 minutes, see [here](<https://movie-web.github.io/docs/proxy/deploy>).
-
-If you need any extra help with setting up a custom proxy, you can ask for help in the [#custom-proxy](<https://discord.com/channels/871713465100816424/1194388816279113798>) channel.
+[extension]
+isContextEnabled = true
+content = """
+# How do I get all the sources?
+We have an [open source](https://github.com/movie-web/extension) extension available to unlock more sources.
+You can install it on desktop browsers, and on Android Firefox.
+[Chrome store](<https://chromewebstore.google.com/detail/movie-web-extension/hoffoikpiofojilgpofjhnkkamfnnhmm>)
+[Firefox store](<https://addons.mozilla.org/addon/movie-web-extension/>)
 """
