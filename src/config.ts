@@ -38,7 +38,7 @@ export const statusEmojiIds = {
   [Status.WAITING]: ['1229555650405863525'],
   [Status.LOADING]: ['1229555652217671690'],
   [Status.SUCCESS]: ['1229555656676212808'],
-  [Status.FAILURE]: ['1229555654532792482 '],
+  [Status.FAILURE]: ['1229555654532792482'],
 };
 
 export const config = createConfigLoader()
